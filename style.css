@@ -190,18 +190,18 @@ p {
   background-color: var(--color-dark-grey);
   display: flex;
   justify-content: space-between;
-  height: 529px;
+  height: 380px;
   width: 100%;
   background: url(./img/main_img_cover.png);
   position: absolute;
-  transform: translate(0px,-160px);
+  transform: translate(0px,-10px);
   bottom: 10;
   left: 0;
 }
 .major {
-  margin-top: 250px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-top: 100px;
+  margin-right: 130px;
+  margin-left: 130px;
 }
 
 .major__icon {
