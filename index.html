@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script src="main.js" defer></script>
+  <script src="https://unpkg.com/typeit@8.6.0/dist/index.umd.js"></script>
 </head>
 
 <body>
@@ -39,9 +40,19 @@
     <div class="home__container">
 
       <p class="home__title">보다 나은 서비스, 최상의 품질을 제공함으로써 <br />정직하고 신뢰받는</p>
-      <p class="home__description">
-        <strong>청북베어링상사</strong>가 되겠습니다.
+      <p id="home__description" class="home__description">
+        <strong>청북베어링상사</strong>입니다
       </p>
+      
+        <script>
+    new TypeIt("#home__description", {
+  strings: "",
+  speed: 150,
+  
+}).go();
+  </script>
+  
+      
     </div>
     <section id="about" class="section section__container">
 
