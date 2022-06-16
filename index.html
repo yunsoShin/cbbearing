@@ -41,21 +41,24 @@
 
       <p class="home__title">보다 나은 서비스, 최상의 품질을 제공함으로써 <br />정직하고 신뢰받는</p>
       <p id="home__description" class="home__description">
-        <strong>청북베어링상사</strong>입니다
+        
       </p>
       
         <script>
           document.addEventListener('DOMContentLoaded',()=>{
             new TypeIt("#home__description", {
-            strings: "",
+              speed: 120,
+            
+            })
+            .pause(800)
+            .type("<strong>청북베어링상사</strong>입니다")
+            .go();
 
-            speed: 150,
+          
             
   
-})
-.pause(300)
-.go();
-          })
+});
+          
     
   </script>
   
