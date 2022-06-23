@@ -378,7 +378,7 @@ p {
   align-items: center;
   width: 280px;
   height: 251px;
-margin: 1~px;
+margin: 1px;
   background-color: white;
 }
 
@@ -387,7 +387,7 @@ margin: 1~px;
 }
 
 .project__img {
-  max-width: 100%;
+  max-width: 90%;
   max-height: 100%;
   align-self: center;
 }
